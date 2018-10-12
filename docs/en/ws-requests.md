@@ -16,7 +16,6 @@ Retrieve a stream of actions, filtered by `receiver` and `account`
   * `account` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Contract account targeted by the action.
   * `receiver` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)?** Specify the receiving account executing its smart contract. If left blank, defaults to the same value as `account`.
   * `action_name` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)?** Name of the action called within the `account` contract.
-  * `with_db_ops` **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)?** Stream changes to the database tables produced by each action.
   * `with_ram_costs` **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)?** Stream RAM billing changes and reasons for costs of storage produced by each action.
   * `with_inline_traces` **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)?** Stream the inline actions produced by each action.
   * `with_deferred` **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)?** Stream the modifications to deferred transactions produced by each action.
