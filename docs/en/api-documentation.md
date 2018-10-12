@@ -5,3 +5,4 @@ and a REST API.
 * [Websockets-based API](#websockets-based-api)
     * [Messages format](#messages-format)
     * [Requests](#ws-requests)
+* [REST API](#rest-api)
