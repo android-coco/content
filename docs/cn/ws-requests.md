@@ -16,7 +16,6 @@
   * `account` **[string](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String)** 该操作所针对的合约帐户。
   * `receiver` **[string](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String)?** 指定执行其智能合约的接收者帐户。如果留空，则默认为与 `account`相同的值。
   * `action_name` **[string](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String)?** 在 `account` 合约中所调用的操作的名称。
-  * `with_db_ops` **[boolean](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Boolean)?** 流式读取每个操作生成的数据库表改动。
   * `with_ram_costs` **[boolean](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Boolean)?** 流式读取RAM计费更改和每个操作所产生的存储成本的原因。
   * `with_inline_traces` **[boolean](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Boolean)?** 流式读取每个操作产生的内联操作。
   * `with_deferred` **[boolean](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Boolean)?** 
