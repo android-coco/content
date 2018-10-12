@@ -12,6 +12,7 @@ Retrieve a stream of actions, filtered by `receiver` and `account`
 ```
 
 `data` fields:
+
   * `account` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Contract account targeted by the action.
   * `receiver` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)?** Specify the receiving account executing its smart contract. If left blank, defaults to the same value as `account`.
   * `action_name` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)?** Name of the action called within the `account` contract.
@@ -30,7 +31,8 @@ Retrieve a transaction and follow its life-cycle. BETA: some life-cycle events a
 ```
 
 `data` fields:
-* `id` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The transaction ID you're looking to track.
+
+  * `id` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The transaction ID you're looking to track.
 
 
 ### `get_table_rows` Request
@@ -53,6 +55,7 @@ transactions/actions being executed.
 ```
 
 `data` fields:
+
   * `code`  **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Contract account which wrote to tables.
   * `scope`  **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)**  Table _scope_ where table is stored.
   * `table_name`  **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)**  Table _name_, shown in the contract ABI.
@@ -69,4 +72,5 @@ To interrupt a stream, you can `unlisten` with the original `req_id` like this:
 ```
 
 `data` fields:
+
   * `req_id` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The `req_id` passed to previous commands which included `listen=true`.
