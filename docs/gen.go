@@ -10,8 +10,8 @@ import (
 //go:generate go run gen.go
 
 func main() {
-	load("en", "api-documentation", "authentication", "endpoints", "ws-requests", "websockets-based-api", "rest-api", "message-format")
-	load("cn", "api-documentation", "authentication", "endpoints", "ws-requests", "websockets-based-api", "rest-api", "message-format")
+	load("en", "changelog", "api-documentation", "authentication", "endpoints", "ws-requests", "websockets-based-api", "rest-api", "message-format")
+	load("cn", "changelog", "api-documentation", "authentication", "endpoints", "ws-requests", "websockets-based-api", "rest-api", "message-format")
 }
 
 func load(lang string, files ...string) {
