@@ -14,5 +14,4 @@ Host: api.mainnet.eos.dfuse.io
 Authorization: Bearer eyJ..YOURTOKENHERE...
 ```
 
-**WARN**: An `Origin` header is required when doing a websockets
-  connection to our endpoints.
+**WARNING**: An `Origin` HTTP request header (ex. `Origin: https://yourcompany.com`) is not currently mandatory during the Beta period when doing a WebSocket connection to our endpoints, but expect that `Origin` header requirement will start to be enforced as we transitioned from the initial Beta phase to General Availability in the near future. As the `Origin` header becomes mandatory, it will need to match the origins you will register along with your API key identity. More details will come soon.
