@@ -14,5 +14,7 @@ Host: api.mainnet.eos.dfuse.io
 Authorization: Bearer eyJ..YOURTOKENHERE...
 ```
 
-**注意**: 你需要使用 `Origin` 标头来做 websockets 连接
-  到我们的端点.
+**注意**: 在 Beta 期间，与我们的端点建立 WebSocket 连接的，`Origin` HTTP请求标头
+（例如 `Origin: https://yourcompany.com`）还不是必需的，但是请了解，
+当我们在不久的将来，从最初的 Beta 阶段过渡到通用性版本时，我们会要求您使用 `Origin` 标头 。 
+到那时候，您的 `Origin` 标头将需要与您注册API密钥身份的源头相匹配。 更多具体细节即将推出。
