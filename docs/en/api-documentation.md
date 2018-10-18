@@ -6,3 +6,4 @@ and a REST API.
     * [Messages format](#messages-format)
     * [Requests](#ws-requests)
 * [REST API](#rest-api)
+* [CHANGE LOG](#change-log)
